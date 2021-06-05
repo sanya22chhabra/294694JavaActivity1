@@ -40,8 +40,11 @@ class employeemain {
 		Scanner sc = new Scanner(System.in);
 		String n,mb,ad;
 		System.out.println("Sample Input:");
+		System.out.println("Enter the name:");
 		n=sc.nextLine();
+		System.out.println("Enter address:");
 		ad=sc.nextLine();
+		System.out.println("Enter mobile:");
 		mb=sc.nextLine();
 		employee e= new employee();
 		e.setname(n);
